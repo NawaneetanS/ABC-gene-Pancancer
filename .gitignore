@@ -1,0 +1,34 @@
+# R specific
+.Rhistory
+.RData
+.Rproj.user/
+TCGAplot/
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.html
+*.pdf
+*.docx
+
+# Data directories
+per_cancer_deseq/
+sc_data/
+Papers/
+Expression of ABCC12 in prostate cancer - The Human Protein Atlas_files/
+
+# Exclude specific large data files
+merged_rawcounts.csv
+Survival_Data.csv
+TCGA-CDR-SupplementalTableS1.xlsx
+kmplots/EBPlusPlusAdjustPANCAN_IlluminaHiSeq_RNASeqV2.geneExp.tsv
+kmplots/TCGA-CDR-SupplementalTableS1.xlsx
+
+# Keep plots
+!/plots/
+!/kmplots/
+
+# But ignore html files in kmplots
+kmplots/*.html
+kmplots/Expression of ABCC12 in prostate cancer - The Human Protein Atlas_files/
