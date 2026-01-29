@@ -267,6 +267,10 @@ for (can in cancers_clin) {
     filter(type == can)
 }
 
+
+##==== 1.3 Chemotherapy resistant vs non resistant ====
+
+
 #==== 2. Plot survival graphs for each cancer ====
 
 ##==== 2.1 Prepare the dataset for plotting ====
