@@ -90,16 +90,3 @@ To run the analysis, you will need the following R packages:
 - `openxlsx`
 
 You can install them using `install.packages()` and `BiocManager::install()` for Bioconductor packages.
-
-## How to Run the Analysis
-
-1.  **Set up the environment**:
-    - Make sure all required R packages are installed.
-    - Place the necessary data files (`merged_rawcounts.csv`, `TCGA-CDR-SupplementalTableS1.xlsx`) in the root directory.
-
-2.  **Execute the script**:
-    - Open `ABC_gene-analysis.R` in an R environment (like RStudio).
-    - Set the working directory to the project's root folder using `setwd("/path/to/your/project")`.
-    - Run the script from top to bottom.
-
-The script will automatically generate the `plots` directory, the `Survival_Data.csv` file, and all the corresponding image files.
